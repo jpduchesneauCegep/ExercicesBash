@@ -16,7 +16,7 @@ Référez-vous à la théorie présentée par le professeur.
 
 3- Quelle est la commande à taper pour afficher à l'écran : 
     "Bonjour NOM, tu as AGE ans." 
-    en remplaçant NOM et AGE par les valeurs entrées par l'utilisateur ?
+    En remplaçant NOM et AGE par les valeurs entrées par l'utilisateur ?
 
 4- Réalisation un compteur  qui commencer au chiffre rentré par l'utilisateur et qui descend jusqu'à 1.
 
