@@ -1,11 +1,11 @@
 # Exercice  - Script bash 2 
 
-## A vous de jouer
+## À vous de jouer
 
 
 ## Réaliser les scripts suivants
 
-** Attention : n'oublier pas de donner les droits d'exécution sur les script (chmod a+x)**
+** Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod a+x)**
 
 ## Exercices pour débutants en code Bash:
 
@@ -42,7 +42,7 @@
 Ces exercices devraient fournir une bonne base pour commencer à pratiquer le code Bash sans utiliser d'instructions conditionnelles. 
 
 
-**Pour avoir la solutions aux exercices précédents , cliquer sur la flèche avant le mot Détail.**
+**Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant le mot Détail.**
 <details>l
 
 
@@ -123,7 +123,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
 </details>
 
-## Exercice avec la stucture de contrôle si :
+## Exercice avec la structure de contrôle si :
 
 1. **Vérifier si un fichier existe :**
    Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier existe ou non.
@@ -155,7 +155,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 10. **Vérifier si un fichier est exécutable :**
     Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier est exécutable ou non.
 
-Ces exercices permetre  de pratiquer l'utilisation de l'instruction conditionnelle `if` en Bash.
+Ces exercices permettre  de pratiquer l'utilisation de l'instruction conditionnelle `if` en Bash.
 
 
 Voici les réponses aux scripts correspondant aux exercices précédents :
