@@ -1,4 +1,4 @@
-﻿# Exercice - Script bash pas à pas
+﻿# Exercice - Script bash pas-à-pas
 
 
 ### Espace disque
@@ -6,19 +6,19 @@
 
 1- Nous allons d'abord faire un script  bash qui va nous permettre de vérifier l'espace de chacune des partitions de votre disque dur.
 
-- Nous allons d'abord vérifier le nom des partition à partir de la commande df -H que vous avons déjà utilisé dans le travail pratique d'installation de Linux. 
+- Nous allons d'abord vérifier le nom des partitions à partir de la commande df -H que vous avons déjà utilisé dans le travail pratique d'installation de Linux. 
 ```bash
 $df -H
 ```
-- Prenez en note, le nom du disque par Exemple : /dev/sd
+- Prenez en note, le nom du disque par exemple : /dev/sd
 - Maintenant, créer le script bash suivant à la racine de votre répertoire usager à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
 $nano espace.sh
 ```
 
-    Nous donnons ici l'extension  .sh au fichier. On le fait par convention pour indiquer que c'est un script shell, mais ce n'est pas une obligation. 
+    Nous donnons ici l'extension  .sh au fichier. On le fait par convention pour indiquer que c'est un script Shell, mais ce n'est pas une obligation. 
 
-    à la première ligne script n'oubliez pas de préciser le shebang: 
+    à la première ligne script, n'oubliez pas de préciser le shebang: 
 
 ```bash
 #!/bin/bash
@@ -36,7 +36,7 @@ cat $Fichier
 $chmod u+x espace.sh
 #Vérifier les droits d'exécution sur le fichier :
 $ls -l
-# et maitenant, pour exécuter votre script bash :
+# et maintenant, pour exécuter votre script bash :
 ./espace.sh
 # Vérifier la présence du nouveau fichier "espaceDisque.txt":
 ls -l
@@ -59,7 +59,7 @@ La commande read propose plusieurs options intéressantes. La façon la plus sim
 ```bash
 read nomvariable
 ```
-Exemple en ligne de commande, à modifier avec vos information : 
+Exemple en ligne de commande, à modifier avec vos informations : 
 
 ```bash
 jpduches@DFCSAE-95871-JPDUCHESNEAU:~$ read nom
@@ -79,7 +79,7 @@ Contenu du script :
 read nom
 echo "Bonjour $nom !"
 ```
-***Attention, suivez les étapes vu au point précédent pour les droits et lancer le script.***
+***Attention, suivez les étapes vues au point précédent pour les droits et lancez le script.***
 
 Lorsque vous lancez ce script, rien ne s'affiche, mais si vous tapez du texte (votre nom, par exemple) le résultat va s'afficher.
 
@@ -97,7 +97,7 @@ echo "Bonjour $nom $prenom !"
 ```
 
 
-On est d'accord, ça manque d'informaion c'est ce que vas permettre l'option -p : afficher un message de prompt : 
+On est d'accord, ça manque d'information c'est ce que vas permettre l'option -p : afficher un message de prompt : 
 ```bash
 #!/bin/bash
 
@@ -110,7 +110,7 @@ echo "Bonjour $nom !"
 **Exécution de débogage**
 
 
-Plus tard, vous ferez probablement de gros scripts et risquerez de rencontrer des bugs. Il faut donc dès à présent que vous sachiez comment déboguer un script.
+Plus tard, vous ferez probablement de gros scripts et risquerez de rencontrer des bogues. Il faut donc dès à présent que vous sachiez comment déboguer un script.
 
 
 Il faut l'exécuter comme ceci :
@@ -122,7 +122,7 @@ $bash -x espace.sh
 On appelle en fait directement le programme bash et on lui ajoute en paramètre un -x (pour lancer le mode débogage) ainsi que le nom de notre script à déboguer.
 
 
-Le shell affiche alors le détail de l'exécution de notre script, ce qui peut nous aider à retrouver la cause de nos erreurs.
+Le Shell affiche alors le détail de l'exécution de notre script, ce qui peut nous aider à retrouver la cause de nos erreurs.
 
 
 
