@@ -54,12 +54,12 @@ Les variables de position stockent le contenu des différents éléments de la l
 
 ## Les tests 
 
-```bash
+
 [ voici-la-condition-du-test-a-vérifier ]
 Il est important de respecter les espaces après le [ et aussi avant le ].
-
+```bash
 $help tests
-
+```
 Opérateurs principaux :
 -e : (True) si le fichier existe
 -d : (True) s’il s’agit d’un dossier
@@ -67,7 +67,7 @@ Opérateurs principaux :
 -s : (True) si le fichier existe et n’est pas vide
 -w : (True) si le fichier est disponible en écriture pour l’utilisateur
 -x : (True) si le fichier est disponible en exécution pour l’utilisateur
-```
+
 
 
 ### Test sinon si
