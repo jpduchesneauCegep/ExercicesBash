@@ -1,12 +1,9 @@
 # Résumé des connaissances importantes sur Bash :
 
 
-https://www.gnu.org/software/bash/
-
 ```bash
 #Utilisez la commande :
 info bash
-
 ```
 
 ---
@@ -107,3 +104,10 @@ else
 	echo "faux"
 fi    
 ```
+
+
+---
+# Référence : 
+- https://www.gnu.org/software/bash/
+- https://doc.ubuntu-fr.org/bash
+- https://doc.ubuntu-fr.org/variables_d_environnement
