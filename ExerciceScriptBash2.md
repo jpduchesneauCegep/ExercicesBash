@@ -109,7 +109,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 9. **Afficher les interfaces réseau :**
    ```bash
    #!/bin/bash
-   ifconfig -a
+   ip a
    ```
 
 10. **Supprimer un fichier :**
