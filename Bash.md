@@ -3,8 +3,11 @@
 
 https://www.gnu.org/software/bash/
 
-- info bash
-- man bash
+```bash
+#Utilisez la commande :
+info bash
+
+```
 
 ---
 
