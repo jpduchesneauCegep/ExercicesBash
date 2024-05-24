@@ -84,7 +84,7 @@ fi
 ### Comparaison numérique 
 
 | Opérateur | Définition |
-| --------------- |---------------:| -----|
+| --------------- |---------------| 
 | -eq | est égal à |
 | -ne | n'est pas égal à |
 | -gt | est plus grand que |
