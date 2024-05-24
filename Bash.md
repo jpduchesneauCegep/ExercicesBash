@@ -80,6 +80,7 @@ else
 command
 fi
 ```
+
 ### Comparaison numérique 
 
 | -eq | est égal à |
