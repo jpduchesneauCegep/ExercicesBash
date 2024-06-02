@@ -186,6 +186,29 @@ fonction internet () {
 	fi
 }
 ```
+<details>
+Ce script Bash permet de vérifier si un ordinateur est connecté à Internet. Il utilise la commande ping et teste la connectivité vers l'adresse IP de Google DNS (8.8.8.8).
+
+**Décomposition du code:**
+
+- Ligne 1: #!/bin/bash : Cette ligne indique au système d'exploitation quel interpréteur de commandes utiliser pour exécuter le script. Dans ce cas, il s'agit de /bin/bash.
+
+- Ligne 3: fonction internet () : Cette ligne définit une fonction nommée internet. Les fonctions en Bash permettent de regrouper des blocs de code réutilisables.
+
+- Lignes 4-5: ping -c 1 8.8.8.8 : Cette ligne exécute la commande ping pour envoyer un paquet ICMP à l'adresse IP 8.8.8.8. L'option -c 1 indique qu'un seul paquet doit être envoyé.
+
+- Ligne 6: if [ $? -eq 0 ]; then : Cette ligne débute un bloc if qui vérifie le code de retour de la commande ping. Si le code de retour est 0, cela signifie que le ping a réussi et que la connexion Internet est probablement active.
+
+- Ligne 7: echo "Vous êtes connecté à internet" : Si le ping a réussi, cette ligne affiche le message "Vous êtes connecté à internet".
+
+- Ligne 8: else : Cette ligne débute un bloc else qui s'exécute si le code de retour de la commande ping n'est pas 0. Cela signifie que le ping a échoué et que la connexion Internet est probablement inactive.
+
+- Ligne 9: echo "Vous n'êtes pas connecté à internet" : Si le ping a échoué, cette ligne affiche le message "Vous n'êtes pas connecté à internet".
+
+- Ligne 10: fi : Cette ligne marque la fin du bloc if/else.
+
+En résumé, ce script Bash simple utilise la commande ping pour vérifier la connectivité Internet et affiche un message correspondant au résultat du test.
+</details>
 
 Portée des variables:
 
