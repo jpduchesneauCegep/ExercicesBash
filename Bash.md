@@ -172,6 +172,7 @@ Les fonctions en Bash permettent de regrouper des blocs de code réutilisables d
 function nom_fonction {
   # Commandes à exécuter
 }
+
 ```
 
 ```bash
@@ -185,6 +186,9 @@ function internet () {
 		echo "Vous n'êtes pas connecté à internet"
 	fi
 }
+
+
+internet
 ```
 <details>
 Ce script Bash permet de vérifier si un ordinateur est connecté à Internet. Il utilise la commande ping et teste la connectivité vers l'adresse IP de Google DNS (8.8.8.8).
