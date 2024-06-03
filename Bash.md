@@ -176,7 +176,7 @@ function nom_fonction {
 
 ```bash
 #!/bin/bash
-fonction internet () {
+function internet () {
 	ping - c 1 8.8.8.8 # Commende ping suivi du nombre de ping et adresse IP.
 
 	if [ $? -eq 0 ]; then
