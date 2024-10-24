@@ -12,11 +12,11 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
 
-**Référence pour l'erxercice** : Note du cours et ce le résumé [bash](Bash.md).
+**Référence pour l'erxercice** : Note du cours et ce résumé [bash](Bash.md).
 
 **Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
 
-**Compétence ciblés** : 
+**Compétences ciblés** : 
 
 - OOQ1 -4 : Effectuer des tâches de gestion du système d'exploitation  :
   - S'initier aux commandes de base du SHELL
@@ -30,9 +30,9 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
   - Ajouter un fichier readme lors de la création.
   - Faite un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
   - Déplacer vous avec votre Bash dans votre nouveau dossier
-  - Voici les commandes que vous aurez à taper 
-    
-(**Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faite.**): 
+  - Voici les commandes que vous aurez à taper :
+
+| **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faite.** |
 
 ```bash
 cd 
