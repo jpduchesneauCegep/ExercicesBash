@@ -69,7 +69,6 @@ nano scrip1Espace.sh
 
 Voici le code : 
 
-**Attention** :  à la première ligne script, n'oubliez pas de préciser le shebang: 
 
 ```bash
 #!/bin/bash
@@ -80,6 +79,8 @@ df -H | grep /dev/sd >> $FICHIER
 # Attention modifier au besoin en fonction de votre sortie à la commande df -H
 
 cat $FICHIER
+**Attention** :  à la première ligne du script, n'oubliez pas de préciser le shebang.
+
 ```
 - Sauvegardez votre fichier en tapant sur Crtl+X et répondez Yes
 - Faite la commande suivante pour rendre le script bash exécutable : 
