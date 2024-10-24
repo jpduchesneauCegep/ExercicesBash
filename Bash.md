@@ -45,7 +45,8 @@ LANG=fr_FR.UTF-8
 Plus d'information : 
 https://doc.ubuntu-fr.org/variables_d_environnement
 
-
+---
+2e cours sur Bash
 ## Variable de positionnement
 
 Les variables de position stockent le contenu des différents éléments de la ligne de commande utilisée pour lancer le script.
