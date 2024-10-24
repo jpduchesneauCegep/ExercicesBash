@@ -49,16 +49,16 @@ cd exercice11
  **Attention : Ce qui est entre crochet doit être remplacés par vos informations. Ne conservez pas les crochets.** 
 ## Script 1 
 
-### : Espace disque
+### Espace disque
 
 1- Nous allons d'abord faire un script  bash qui va nous permettre de vérifier l'espace de chacune des partitions de votre disque dur.
 
 
-- Nous allons d'abord vérifier le nom des partitions à partir de la commande df -H que vous avons déjà utilisé dans le travail pratique d'installation de Linux. 
+- Nous allons d'abord vérifier le nom des partitions à partir de la commande df -H que vous avez déjà utilisé dans le travail pratique d'installation de Linux. 
 ```bash
 df -H
 ```
-- Prenez en note le nom des vos disque dur soit /dev/sd (Bios) /dev/vd (UEFI).
+- Prenez en note le nom des vos disques dur (soit /dev/sd (Bios) /dev/vd (UEFI)).
 - Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix (nano ou vi). Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
 nano scrip1Espace.sh
