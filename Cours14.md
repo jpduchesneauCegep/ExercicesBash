@@ -1,7 +1,7 @@
 
 
 
-# Examen - Cours 15, 5 juin 8h30 Examen final
+# Examen - Cours 15, 5 juin 2024, Examen final
  
 ## Contenu : 
  - Détermination des composantes pour l’installation d’un ordinateur (10 points)
