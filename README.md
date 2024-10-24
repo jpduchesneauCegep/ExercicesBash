@@ -7,4 +7,12 @@
 
 N'hisiter pas à me communiquer tout erreur ou omission.
 
+
+--- 
+## Sites de référence :
+
+- [Wikipedia : Bourne-Again shell](https://fr.wikipedia.org/wiki/Bourne-Again_shell)
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- https://fr.wikipedia.org/wiki/Bourne-Again_shell
+
 Dernière mise à jour octobre 2024
