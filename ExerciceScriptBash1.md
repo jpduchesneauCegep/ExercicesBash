@@ -59,7 +59,7 @@ cd exercice11
 df -H
 ```
 - Prenez en note le nom des vos disques dur (soit /dev/sd (Bios) /dev/vd (UEFI)).
-- Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix (nano ou vi). Si vous ne savez pas lequel utilisé, utilisez nano : 
+- Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
 nano scrip1Espace.sh
 ```
