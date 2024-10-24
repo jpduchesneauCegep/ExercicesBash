@@ -1,6 +1,29 @@
-# Exercice  - Script bash 2 
+# Exercice 12 - Script à vous de jouer
 
-## À vous de jouer
+
+Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
+
+---
+
+
+**Travail individuel.**
+
+**Durée** : 2 heures
+
+**Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
+
+**Référence pour l'exercice** : Note du cours et ce résumé [bash](Bash.md).
+
+**Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
+
+**Compétences ciblés** : 
+
+- OOQ1 -4 : Effectuer des tâches de gestion du système d'exploitation  :
+  - S'initier aux commandes de base du SHELL
+  - Utiliser des scripts avec le SHELL Bash
+  - Programmer, tester et déboguer des scripts
+    
+# Exercice  - Script bash 2 
 
 
 ## Réaliser les scripts suivants
