@@ -153,8 +153,8 @@ On peut demander de saisir autant de variables d'affilée que l'on souhaite. Voi
 ```bash
 #!/bin/bash
 
-read nom prenom
-echo "Bonjour $nom $prenom !"
+read NOM PRENOM
+echo "Bonjour $PRENOM $NOM !"
 ```
 
 
@@ -163,8 +163,8 @@ On est d'accord, ça manque d'information c'est ce que vas permettre l'option -p
 #!/bin/bash
 
 
-read -p 'Entrez votre nom : " nom 
-echo "Bonjour $nom !"
+read -p 'Entrez votre nom : " NOM PRENOM 
+echo "Bonjour $PRENOM $NOM !"
 ```
 
 
@@ -178,7 +178,7 @@ Il faut l'exécuter comme ceci :
 
 
 ```bash
-$bash -x espace.sh
+$bash -x script3Bonjour.sh
 ```
 On appelle en fait directement le programme bash et on lui ajoute en paramètre un -x (pour lancer le mode débogage) ainsi que le nom de notre script à déboguer.
 
