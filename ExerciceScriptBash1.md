@@ -86,7 +86,7 @@ cat $FICHIER
 - Faite la commande suivante pour rendre le script bash exécutable : 
 
 ```bash
-# Ajouter les droits d'exécution sur le fichier :
+# Ajouter les droits d'exécution pour le propriétaire sur le fichier :
 $chmod u+x espace.sh
 #Vérifier les droits d'exécution sur le fichier :
 $ls -l
