@@ -5,7 +5,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ---
 
-**Évaluation :**formative
+**Évaluation** :formative
 
 **Travail individuel.**
 
@@ -13,7 +13,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
 
-
+---
 ### Espace disque
 
 
