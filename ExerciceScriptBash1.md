@@ -12,7 +12,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
 
-**Référence pour l'erxercice** : Note du cours et ce résumé [bash](Bash.md).
+**Référence pour l'exercice** : Note du cours et ce résumé [bash](Bash.md).
 
 **Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
 
@@ -26,17 +26,17 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ---
 ### Prérequis
-  - Créer un  dépôt sur GitHub pour l'exercice. Nom sugérer : **420-W12-SF-Module4-Script**
-  - Ajouter un fichier readme lors de la création.
-  - Faite un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
-  - Déplacer vous avec votre Bash dans votre nouveau dossier
+  - Créez un  dépôt sur GitHub pour l'exercice. Nom suggéré : **420-W12-SF-Module4-Script**
+  - Ajoutez un fichier readme lors de la création.
+  - Faites un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
+  - Déplacez-vous avec votre Bash dans votre nouveau dossier
   - Voici les commandes que vous aurez à taper :
 
- **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faite. ** 
+ **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faites. ** 
 
 ```bash
 cd  # Vous assurez d'être dans votre $HOME
-pwd # vérifier que vous êtes la racine de votre répertoire d'usager
+pwd # vérifiez que vous êtes la racine de votre répertoire d'usager
 cd Documents
 git clone [Le nom de votre dépôt git]
 cd [Le nom de votre dépôt git]
@@ -46,7 +46,7 @@ ls -al
 mkdir exercice11
 cd exercice11
 ```
- **Attention : Ce qui est entre crochet doit être remplacés par vos informations. Ne conservez pas les crochets.** 
+ **Attention : Ce qui est entre crochets doit être remplacé par vos informations. Ne conservez pas les crochets.** 
 ## Script 1 
 
 ### Espace disque
@@ -58,8 +58,8 @@ cd exercice11
 ```bash
 df -H
 ```
-- Prenez en note le nom des vos disques dur, soit /dev/sd (En mode MBR) ou  /dev/vd (En mode GPT).
-- Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
+- Prenez en note le nom de vos disques durs, soit /dev/sd (En mode MBR) ou  /dev/vd (En mode GPT).
+- Maintenant, créez le script bash suivant à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
 nano scrip1Espace.sh
 ```
@@ -76,14 +76,14 @@ FICHIER="espaceDisque.txt"
 
 date >> $FICHIER
 df -H | grep /dev/sd >> $FICHIER
-# Attention modifier au besoin en fonction de votre sortie à la commande df -H
+# Attention: modifiez au besoin en fonction de votre sortie à la commande df -H
 
 cat $FICHIER
 # Attention:  à la première ligne du script, n'oubliez pas de préciser le shebang.
 
 ```
 - Sauvegardez votre fichier en tapant sur Crtl+X et répondez Yes
-- Faite la commande suivante pour rendre le script bash exécutable : 
+- Faites la commande suivante pour rendre le script bash exécutable : 
 
 ```bash
 # Ajouter les droits d'exécution pour le propriétaire sur le fichier :
@@ -99,13 +99,13 @@ Question 1 : Expliquer chaque ligne de votre script.
 
 Question 2 : Qu'est-ce qui arrive si vous exécutez plusieurs fois le script ?
 
-Question 3 : Qu'elle est l'intérêt d'utiliser ce script plutôt que la commande df -H régulièrement ?
+Question 3 : Quel est l'intérêt d'utiliser ce script plutôt que la commande df -H régulièrement ?
 
 ## Script 2
 
 ### Usagers
 
-A partir de ce que vous avez appris dans la conception du script1, essayer de faire un script qui vous donne les informations sur les dix derniers usagers  du système en date d'exécution du script. Voici les informations qui vous sont fournies. Vous avez le man des commandes pour vous aider.
+À partir de ce que vous avez appris dans la conception du script1, essayer de faire un script qui vous donne les informations sur les dix derniers usagers du système en date d'exécution du script. Voici les informations qui vous sont fournies. Vous avez le man des commandes pour vous aider.
  
  - Nom du script : Script2Usager.sh
  - Commande nécessaire dans le script : tail, ls -l.
@@ -114,7 +114,7 @@ A partir de ce que vous avez appris dans la conception du script1, essayer de fa
 
 ### Script 2 amélioré (Usagers et groupes)
 
- Modifier votre script pour y inclure les groupes des usagers
+ Modifiez votre script pour y inclure les groupes des usagers
 
  - Nom du script : Script2Usager.sh
  - Commande nécessaire dans le script : tail, ls -l.
@@ -154,7 +154,7 @@ echo "Bonjour $nom !"
 ```
 ***Attention, suivez les étapes vues au script1  pour les droits et lancez le script.***
 
-Lorsque vous lancez ce script, rien ne s'affiche, mais si vous tapez du texte (votre nom, par exemple) le résultat va s'afficher.
+Lorsque vous lancez ce script, rien ne s'affiche; mais, si vous tapez du texte (votre nom, par exemple) le résultat va s'afficher.
 
 ![Exécution du script par le professeur](images/script2.jpg)
 
@@ -170,7 +170,7 @@ echo "Bonjour $PRENOM $NOM !"
 ```
 
 
-On est d'accord, ça manque d'information c'est ce que vas permettre l'option -p : afficher un message de prompt : 
+On est d'accord, ça manque d'information c'est ce que va permettre l'option -p : afficher un message de prompt : 
 ```bash
 #!/bin/bash
 
