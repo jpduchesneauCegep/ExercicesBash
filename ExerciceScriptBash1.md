@@ -110,6 +110,15 @@ A partir de ce que vous avez appris dans la conception du script1, essayer de fa
  - Fichier de sortie : usager.txt
  - Fichier vous permettant d'avoir les usagers : /etc/passwd
 
+ ### Script 2 amélioré
+
+ Modifier votre script pour y inclure les groupes des usagers
+
+ - Nom du script : Script2Usager.sh
+ - Commande nécessaire dans le script : tail, ls -l.
+ - Fichier de sortie : usagerGroupe.txt
+ - Fichier vous permettant d'avoir les usagers : /etc/passwd et les gropes /etc/group
+
 ## Script 3
 ### read : demander une saisie
 
@@ -186,5 +195,7 @@ On appelle en fait directement le programme bash et on lui ajoute en paramètre 
 
 Le Shell affiche alors le détail de l'exécution de notre script, ce qui peut nous aider à retrouver la cause de nos erreurs.
 
+
+## Fin de l'exercice
 
 
