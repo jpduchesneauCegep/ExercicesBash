@@ -32,10 +32,10 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
   - Déplacer vous avec votre Bash dans votre nouveau dossier
   - Voici les commandes que vous aurez à taper :
 
-| **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faite.** |
+ **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faite. ** 
 
 ```bash
-cd 
+cd  # Vous assurez d'être dans votre $HOME
 pwd # vérifier que vous êtes la racine de votre répertoire d'usager
 cd Documents
 git clone [Le nom de votre dépôt git]
@@ -46,7 +46,7 @@ ls -al
 mkdir exercice11
 cd exercice11
 ```
-
+ **Attention : Ce qui est entre crochet doit être remplacés par vos informations. Ne conservez pas les crochets.** 
 ## Script 1 
 
 ### : Espace disque
