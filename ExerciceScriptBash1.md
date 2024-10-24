@@ -22,13 +22,23 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
   - S'initier aux commandes de base du SHELL
   - Utiliser des scripts avec le SHELL Bash
   - Programmer, tester et déboguer des scripts
+  - Déplacer vous avec votre Bash dans votre nouveau dossier
+  - Voici les étapes du SHELL :
+
+    
 
 ---
 ### Prérquis
   - Créer un  dépôt sur GitHub pour l'exercice. Nom sucgérer *420-W122-SF-Module4-Scrip*
   - Ajouté un readme.
   - Faite un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
+```bash
+cd 
+pwd # vérifier que vous êtes la racine de votre répertoire d'usager
+git clone [Le nom de votre dépôt git]
+cd [Le nom de votre dépôt git]
 
+```
 ### Espace disque
 
 
