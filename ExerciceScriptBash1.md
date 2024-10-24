@@ -24,6 +24,11 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
   - Programmer, tester et déboguer des scripts
 
 ---
+### Prérquis
+  - Créer un  dépôt sur GitHub pour l'exercice. Nom sucgérer *420-W122-SF-Module4-Scrip*
+  - Ajouté un readme.
+  - Faite un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
+
 ### Espace disque
 
 
