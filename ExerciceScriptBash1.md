@@ -1,4 +1,12 @@
-﻿# Exercice - Script bash pas-à-pas
+﻿# Exercice 11 - Script bash pas-à-pas
+--- 
+Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
+---
+
+**Évaluation :**formative
+**Travail individuel.**
+**Durée** : 2 heures
+**Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
 
 
 ### Espace disque
