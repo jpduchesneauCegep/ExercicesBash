@@ -112,7 +112,7 @@ A partir de ce que vous avez appris dans la conception du script1, essayer de fa
  - Fichier de sortie : usager.txt
  - Fichier vous permettant d'avoir les usagers : /etc/passwd
 
- ### Script 2 amélioré
+### Script 2 amélioré (Usagers et groupes)
 
  Modifier votre script pour y inclure les groupes des usagers
 
