@@ -18,9 +18,9 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Objectifs** : 
 
-    - S'initier aux commandes de base du SHELL
+- S'initier aux commandes de base du SHELL
     
-    - Utiliser des scripts avec le SHELL Bash
+- Utiliser des scripts avec le SHELL Bash
 
 ---
 ### Espace disque
