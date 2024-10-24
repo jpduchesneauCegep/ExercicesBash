@@ -1,5 +1,5 @@
 ﻿# Exercice 11 - Script bash pas-à-pas
---- 
+
 
 Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
