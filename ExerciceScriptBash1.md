@@ -16,11 +16,12 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
 
-**Objectifs** : 
+**Compétence ciblés** : 
 
-- S'initier aux commandes de base du SHELL
-    
-- Utiliser des scripts avec le SHELL Bash
+- OOQ1 -4 : Effectuer des tâches de gestion du système d'exploitation  :
+  - S'initier aux commandes de base du SHELL
+  - Utiliser des scripts avec le SHELL Bash
+  - Programmer, tester et déboguer des scripts
 
 ---
 ### Espace disque
