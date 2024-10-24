@@ -5,7 +5,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ---
 
-**Évaluation** :formative
+**Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
 
 **Travail individuel.**
 
