@@ -103,6 +103,8 @@ Question 3 : Qu'elle est l'intérêt d'utiliser ce script plutôt que la command
 
 ## Script 2
 
+### Usagers
+
 A partir de ce que vous avez appris dans la conception du script1, essayer de faire un script qui vous donne les informations sur les dix derniers usagers  du système en date d'exécution du script. Voici les informations qui vous sont fournies. Vous avez le man des commandes pour vous aider.
  
  - Nom du script : Script2Usager.sh
