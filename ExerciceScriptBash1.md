@@ -58,7 +58,7 @@ cd exercice11
 ```bash
 df -H
 ```
-- Prenez en note le nom des vos disques dur (soit /dev/sd (Bios) /dev/vd (UEFI)).
+- Prenez en note le nom des vos disques dur, soit /dev/sd (En mode MBR) ou  /dev/vd (En mode GPT).
 - Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
 nano scrip1Espace.sh
