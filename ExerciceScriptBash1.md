@@ -12,7 +12,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Système d'exploitation**: Ubuntu 24.04 ou un autre OS ayant Bash.
 
-**Référence pour l'erxercice** : Note du cours et ce le résumé [Bash.md](bash).
+**Référence pour l'erxercice** : Note du cours et ce le résumé [bash](Bash.md).
 
 **Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
 
