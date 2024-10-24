@@ -11,6 +11,7 @@ N'hisiter pas à me communiquer tout erreur ou omission.
 --- 
 ## Sites de référence :
 
+- [Console : ligne de commande](https://doc.ubuntu-fr.org/tutoriel/console_ligne_de_commande)
 - [Wikipedia : Bourne-Again shell](https://fr.wikipedia.org/wiki/Bourne-Again_shell)
 - [GNU Bash](https://www.gnu.org/software/bash/)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
