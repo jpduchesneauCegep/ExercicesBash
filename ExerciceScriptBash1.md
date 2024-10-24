@@ -25,9 +25,9 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
     
 
 ---
-### Prérquis
-  - Créer un  dépôt sur GitHub pour l'exercice. Nom sugérer *420-W122-SF-Module4-Scrip*
-  - Ajouté un readme.
+### Prérequis
+  - Créer un  dépôt sur GitHub pour l'exercice. Nom sugérer : **420-W12-SF-Module4-Script**
+  - Ajouter un fichier readme lors de la création.
   - Faite un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
   - Déplacer vous avec votre Bash dans votre nouveau dossier
   - Voici les commandes que vous aurez à taper 
@@ -37,42 +37,55 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 ```bash
 cd 
 pwd # vérifier que vous êtes la racine de votre répertoire d'usager
+cd Documents
 git clone [Le nom de votre dépôt git]
 cd [Le nom de votre dépôt git]
-
+ll #ou
+ls -al 
+# Vous devriez voir votre fichier readme. Si oui, tout est fonctionnel pour faire votre exercice 11 et ainsi, garder vos fichiers des exercices sur votre GitHub.
+mkdir exercice11
+cd exercice11
 ```
-### Espace disque
 
+## Script 1 
+
+### : Espace disque
 
 1- Nous allons d'abord faire un script  bash qui va nous permettre de vérifier l'espace de chacune des partitions de votre disque dur.
 
+
 - Nous allons d'abord vérifier le nom des partitions à partir de la commande df -H que vous avons déjà utilisé dans le travail pratique d'installation de Linux. 
 ```bash
-$df -H
+df -H
 ```
-- Prenez en note, le nom du disque par exemple : /dev/sd
-- Maintenant, créer le script bash suivant à la racine de votre répertoire usager à l'aide de l'éditeur de texte de votre choix. Si vous ne savez pas lequel utilisé, utilisez nano : 
+- Prenez en note le nom des vos disque dur soit /dev/sd (Bios) /dev/vd (UEFI).
+- Maintenant, créer le script bash suivant à l'aide de l'éditeur de texte de votre choix (nano ou vi). Si vous ne savez pas lequel utilisé, utilisez nano : 
 ```bash
-$nano espace.sh
+nano scrip1Espace.sh
 ```
 
-    Nous donnons ici l'extension  .sh au fichier. On le fait par convention pour indiquer que c'est un script Shell, mais ce n'est pas une obligation. 
 
-    à la première ligne script, n'oubliez pas de préciser le shebang: 
+ Nous donnons ici l'extension  .sh au fichier. On le fait par convention pour indiquer que c'est un script Shell, mais ce n'est pas une obligation. 
+
+Voici le code : 
+
+**Attention** :  à la première ligne script, n'oubliez pas de préciser le shebang: 
 
 ```bash
 #!/bin/bash
-Fichier="espaceDisque.txt"
+FICHIER="espaceDisque.txt"
 
-date >> $Fichier
-df -H | grep /dev/sd >> $Fichier
+date >> $FICHIER
+df -H | grep /dev/sd >> $FICHIER
+# Attention modifier au besoin en fonction de votre sortie à la commande df -H
 
-cat $Fichier
+cat $FICHIER
 ```
 - Sauvegardez votre fichier en tapant sur Crtl+X et répondez Yes
 - Faite la commande suivante pour rendre le script bash exécutable : 
 
 ```bash
+# Ajouter les droits d'exécution sur le fichier :
 $chmod u+x espace.sh
 #Vérifier les droits d'exécution sur le fichier :
 $ls -l
@@ -87,12 +100,20 @@ Question 2 : Qu'est-ce qui arrive si vous exécutez plusieurs fois le script ?
 
 Question 3 : Qu'elle est l'intérêt d'utiliser ce script plutôt que la commande df -H régulièrement ?
 
+## Script 2
 
+A partir de ce que vous avez appris dans la conception du script1, essayer de faire un script qui vous donne les informations sur les dix derniers usagers  du système en date d'exécution du script. Voici les informations qui vous sont fournies. Vous avez le man des commandes pour vous aider.
+ 
+ - Nom du script : Script2Usager.sh
+ - Commande nécessaire dans le script : tail, ls -l.
+ - Fichier de sortie : usager.txt
+ - Fichier vous permettant d'avoir les usagers : /etc/passwd
 
+## Script 3
 ### read : demander une saisie
 
 
-Vous pouvez demander à l'utilisateur de saisir du texte avec la commande read. Ce texte sera immédiatement stocké dans une variable.
+Vous pouvez demander à l'utilisateur du script de saisir du texte avec la commande read. Ce texte sera immédiatement stocké dans une variable.
 
 La commande read propose plusieurs options intéressantes. La façon la plus simple de l'utiliser est d'indiquer le nom de la variable dans laquelle le message saisi sera stocké :
 
@@ -108,9 +129,9 @@ jpduches@DFCSAE-95871-JPDUCHESNEAU:~$ echo "Bonjour $nom !"
 Bonjour "Jean-Pierre Duchesneau" !
 jpduches@DFCSAE-95871-JPDUCHESNEAU:~$
 ```
-Créons un script bonjour.sh pour qu'il nous demande notre nom puis qu’il nous l'affiche :
+Créons un script Script3bonjour.sh pour qu'il nous demande notre nom puis qu’il nous l'affiche :
 ```bash
-nano bonjour.sh
+nano Script3bonjour.sh
 ```
 Contenu du script : 
 ```bash
@@ -119,7 +140,7 @@ Contenu du script :
 read nom
 echo "Bonjour $nom !"
 ```
-***Attention, suivez les étapes vues au point précédent pour les droits et lancez le script.***
+***Attention, suivez les étapes vues au script1  pour les droits et lancez le script.***
 
 Lorsque vous lancez ce script, rien ne s'affiche, mais si vous tapez du texte (votre nom, par exemple) le résultat va s'afficher.
 
