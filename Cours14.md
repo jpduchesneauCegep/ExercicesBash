@@ -15,7 +15,6 @@
 ## Préparation à l'examen, recommandation : 
 - Vérifier si votre VM Ubuntu est fonctionnel.
 - Création d'usagers et de répertoires dans Linux
-- Faite des tests git sur Ubuntu.
 
 ## Consignes d'examen : 
 
