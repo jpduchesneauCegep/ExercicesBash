@@ -15,6 +15,6 @@ N'hisiter pas à me communiquer toutes erreurs ou omissions.
 - [Wikipedia : Bourne-Again shell](https://fr.wikipedia.org/wiki/Bourne-Again_shell)
 - [GNU Bash](https://www.gnu.org/software/bash/)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
- 
+
 
 Dernière mise à jour octobre 2024
