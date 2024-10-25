@@ -1,5 +1,4 @@
-# Bash
-
+# 420-W12-SF : partie Bash
 
 - Le premier fichier [Bash](Bash.md) revient sur quelques notions importantes vue dans le cours sur bash.
 - Par la suite, vous avez trois (3) exercices sur les script en bash dans le cours système d'exploitation.
