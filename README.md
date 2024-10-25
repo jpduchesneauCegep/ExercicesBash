@@ -5,7 +5,7 @@
 - Le fichier [installWSL](InstalleWSL.md) explique comment mettre en place un Linux comme sous-systèeme de Windows.
 - Vous avez les notions à reviser pour l'examen final dans le fichier [Cours 14](Cours14.md).
 
-N'hisiter pas à me communiquer toutes erreur ou omission.
+N'hisiter pas à me communiquer toutes erreurs ou omissions.
 
 
 --- 
