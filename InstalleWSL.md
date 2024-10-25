@@ -9,9 +9,9 @@ Le Sous-système Windows pour Linux (WSL) est une fonctionnalité de Windows qui
 
 ## Installation
 
-Ouvrez PowerShell (ou l’invite de commandes Windows) et entrez :
+Ouvrez PowerShell en mode Administrateur  et entrez :
 ```powershell
-wsl --install
+wsl --install -d Ubuntu
 ```
 La commande --install effectue les actions suivantes :
 
@@ -37,3 +37,9 @@ Une fois le processus d’installation de votre distribution Linux avec WSL term
 - Chaque distribution Linux exécutée sur WSL a ses propres comptes d’utilisateur et mots de passe Linux. Vous devez configurer un compte d’utilisateur Linux chaque fois que vous ajoutez, réinstallez ou réinitialisez une distribution.
 
 - Pour modifier ou réinitialiser votre mot de passe, ouvrez la distribution Linux et entrez la commande : passwd. Vous êtes invité à entrer votre mot de passe actuel, à entrer votre nouveau mot de passe, puis à confirmer votre nouveau mot de passe.
+- 
+- 
+- Pour avoir la liste des distributions disponibles taper la commande suivante dans PowerShell :
+```powershell
+wsl --list --online
+```
