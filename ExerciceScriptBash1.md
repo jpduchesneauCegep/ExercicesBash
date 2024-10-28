@@ -156,8 +156,6 @@ echo "Bonjour $nom !"
 
 Lorsque vous lancez ce script, rien ne s'affiche; mais, si vous tapez du texte (votre nom, par exemple) le résultat va s'afficher.
 
-![Exécution du script par le professeur](images/script2.jpg)
-
 
 On peut demander de saisir autant de variables d'affilée que l'on souhaite. Voici un exemple de ce qu'il est possible de faire :
 
