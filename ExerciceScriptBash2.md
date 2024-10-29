@@ -28,7 +28,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ## Réaliser les scripts suivants
 
-** Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod a+x)**
+** Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod u+x ou pour tous chmod a+x)**
 
 ## Exercices pour débutants en code Bash:
 
