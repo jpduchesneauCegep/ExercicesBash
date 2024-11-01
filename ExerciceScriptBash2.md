@@ -87,7 +87,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    ```bash
    #!/bin/bash
 
-    # Obtenir le nom de l'utilisateur, du système et la date
+    # Obtenir le nom de l'utilisateur, du système
     USER=$(whoami)
     HOSTNAME=$(hostname)
 
@@ -95,7 +95,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
     echo "Bienvenue $USER sur la machine $HOSTNAME !"
    ```
 
-4. **Afficher la date et l'heure :**
+4. **Ajouter la date et l'heure :**
 ```bash
 #!/bin/bash
 
