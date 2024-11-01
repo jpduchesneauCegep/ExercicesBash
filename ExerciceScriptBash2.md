@@ -121,9 +121,35 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
     # Liste les fichiers et sous-répertoires
     ls "$repertoire"
- ```
+     ```
 
-4. **Calculer la somme de deux nombres :**
+6. **Créer un répertoire :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom du répertoire : "
+   read dirname
+   mkdir -p $dirname
+   ```
+
+7. **Copier un fichier :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom du fichier à copier : "
+   read filename
+   echo "Entrez le répertoire de destination : "
+   read destdir
+   cp $filename $destdir
+
+8. **Supprimer un fichier :**
+    ```bash
+    #!/bin/bash
+    echo "Entrez le nom du fichier à supprimer : "
+    read filename
+    rm $filename
+    ```
+   ```
+
+9. **Calculer la somme de deux nombres :**
    ```bash
    #!/bin/bash
    echo "Entrez le premier nombre : "
@@ -134,48 +160,20 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    echo "La somme est : $sum"
    ```
 
-5. **Afficher les informations sur le système :**
+10. **Afficher les informations sur le système :**
    ```bash
    #!/bin/bash
    echo "Nom de l'utilisateur : $USER"
    echo "Architecture du processeur : $(uname -m)"
    ```
 
-6. **Créer un répertoire :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom du répertoire : "
-   read dirname
-   mkdir -p $dirname
    ```
 
-
-
-8. **Copier un fichier :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom du fichier à copier : "
-   read filename
-   echo "Entrez le répertoire de destination : "
-   read destdir
-   cp $filename $destdir
-   ```
-
-9. **Afficher les interfaces réseau :**
+11. **Afficher les interfaces réseau :**
    ```bash
    #!/bin/bash
    ifconfig -a
    ```
-
-10. **Supprimer un fichier :**
-    ```bash
-    #!/bin/bash
-    echo "Entrez le nom du fichier à supprimer : "
-    read filename
-    rm $filename
-    ```
-
-
 </details>
 
 ## Exercice avec la structure de contrôle si :
