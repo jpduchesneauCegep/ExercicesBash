@@ -96,6 +96,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    ```
 
 4. **Afficher la date et l'heure :**
+```bash
 #!/bin/bash
 
 # Obtenir la date et l'heure au format souhaité
@@ -109,13 +110,19 @@ HOSTNAME=$(hostname)
 echo "Bienvenue $USER dans mon script Bash !"
 echo "Exécuté sur la machine $HOSTNAME !"
 echo "Il est présentement $DATE"
-   ```
+```
 
-3. **Afficher la liste des fichiers dans un répertoire :**
-   ```bash
-   #!/bin/bash
-   ls
-   ```
+5. **Afficher la liste des fichiers dans un répertoire :**
+ ```bash
+#!/bin/bash
+
+# Répertoire à lister (vous pouvez remplacer "." par le chemin du répertoire désiré)
+repertoire="./"
+
+# Liste les fichiers et sous-répertoires
+ls "$repertoire"
+
+ ```
 
 4. **Calculer la somme de deux nombres :**
    ```bash
