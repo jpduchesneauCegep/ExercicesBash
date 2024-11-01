@@ -87,11 +87,11 @@ cat $FICHIER
 
 ```bash
 # Ajouter les droits d'exécution pour le propriétaire sur le fichier :
-$chmod u+x espace.sh
+$chmod u+x scrip1Espace.sh
 #Vérifier les droits d'exécution sur le fichier :
 $ls -l
 # et maintenant, pour exécuter votre script bash :
-./espace.sh
+./scrip1Espace.sh
 # Vérifier la présence du nouveau fichier "espaceDisque.txt":
 ls -l
 ```

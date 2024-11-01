@@ -1,10 +1,8 @@
-# Exercice 12 - Script à vous de jouer
-
+# Exercice  - Script bash 2 - Jouer avec les  variables
 
 Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ---
-
 
 **Travail individuel.**
 
@@ -14,71 +12,103 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Référence pour l'exercice** : Note du cours et ce résumé [bash](Bash.md).
 
-**Évaluation** : formative, aucun document à remettre. Vous aurez le corrigé au prochain cours.
+**Évaluation** : formative, aucun document à remettre. Le corrigé est dans le document. Nous allons y revenir au prochain cours.
 
-**Compétences ciblés** : 
+**Compétences ciblés** :
 
 - OOQ1 -4 : Effectuer des tâches de gestion du système d'exploitation  :
   - S'initier aux commandes de base du SHELL
   - Utiliser des scripts avec le SHELL Bash
   - Programmer, tester et déboguer des scripts
-    
-# Exercice  - Script bash 2 
-
 
 ## Réaliser les scripts suivants
 
-** Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod u+x ou pour tous chmod a+x)**
+**Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod a+x)**
+
+Utilser les pages man de bash pour vous  aider.
+
+   ```bash
+ man [commande]
+   ```
 
 ## Exercices pour débutants en code Bash:
 
-1. **Afficher un message de bienvenue :**
-   Écrivez un script qui affiche un message de bienvenue lorsque vous l'exécutez.
+1. **Afficher les variables d'environnement :**
+   Écrivez un script qui affiche les variables d'environnement de la session en cours. Appelez le `afficher_variables.sh`.
 
-2. **Afficher la date et l'heure :**
-   Écrivez un script qui affiche la date et l'heure actuelles lorsque vous l'exécutez.
+2. **Afficher un message de bienvenue :**
+   Écrivez un script qui affiche un message de bienvenue lorsque vous l'exécutez. Appellez le `bienvenue.sh`.
 
-3. **Afficher la liste des fichiers dans un répertoire :**
-   Écrivez un script qui affiche la liste des fichiers dans le répertoire où il se trouve.
+3. Modifier le script pour qu'il affiche votre nom d'utilisateur avec la commande `whoami` et votre nom de machine en utilisant la variable d'environnement.
 
-4. **Calculer la somme de deux nombres :**
-   Écrivez un script qui demande à l'utilisateur deux nombres, puis affiche leur somme.
+4. **Afficher la date et l'heure :**
+   Ajouter la date et l'heure actuelles au format jours, date et heure lorsque vous exécutez le script `bienvenue.sh`. Aidez-vous du man date.
 
-5. **Afficher les informations sur le système :**
-   Écrivez un script qui affiche des informations sur le système, telles que le nom de l'utilisateur, l'architecture du processeur, etc.
+5. **Afficher la liste des fichiers dans un répertoire :**
+   Écrivez un script qui affiche la liste des fichiers dans le répertoire où il se trouve. Nom du script `listRep.sh`.
 
 6. **Créer un répertoire :**
-   Écrivez un script qui demande à l'utilisateur un nom de répertoire, puis crée ce répertoire s'il n'existe pas déjà.
+   Écrivez un script qui demande à l'utilisateur un nom de répertoire, puis crée ce répertoire s'il n'existe pas déjà. Nom du script `NewRep.sh`.
 
-7. **Afficher les variables d'environnement :**
-   Écrivez un script qui affiche les variables d'environnement de la session en cours.
+7. **Copier un fichier :**
+   Écrivez un script qui demande à l'utilisateur le nom d'un fichier existant, puis copie ce fichier dans un autre répertoire. Nom du script `cpFichier.sh`.
 
-8. **Copier un fichier :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un fichier existant, puis copie ce fichier dans un autre répertoire.
+8. **Supprimer un fichier :**
+    Écrivez un script qui demande à l'utilisateur le nom d'un fichier existant, puis le supprime.  Nom du script `delFichier.sh`.
 
-9. **Afficher les interfaces réseau :**
+9. **Calculer la somme de deux nombres :**
+   Écrivez un script qui demande à l'utilisateur deux nombres, puis affiche leur somme.  Nom du script `somme.sh`.
+
+10. **Afficher les informations sur le système :**
+   Écrivez un script qui affiche des informations sur le système, telles que le nom de l'utilisateur, l'architecture du processeur, , la mémoire vive, le système d'exploitation. Nom du script  `infoSystème.sh`.
+   Vous pouvez consulter l'IA pour trouver les  commandes appropriées.  
+
+11. **Afficher les interfaces réseau :**
    Écrivez un script qui affiche les interfaces réseau disponibles sur le système.
 
-10. **Supprimer un fichier :**
-    Écrivez un script qui demande à l'utilisateur le nom d'un fichier existant, puis le supprime.
-
-Ces exercices devraient fournir une bonne base pour commencer à pratiquer le code Bash sans utiliser d'instructions conditionnelles. 
-
+Ces exercices devraient fournir une bonne base pour commencer à pratiquer le code Bash sans utiliser d'instructions conditionnelles.
 
 **Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant le mot Détail.**
-<details>l
+<details>
 
+1. **Afficher les variables d'environnement :**
+   ```bash
+   #!/bin/bash
+   printenv
+   ```
 
--1 **Afficher un message de bienvenue :**
+2. **Afficher un message de bienvenue :**
    ```bash
    #!/bin/bash
    echo "Bienvenue dans mon script Bash !"
    ```
 
-2. **Afficher la date et l'heure :**
+3. Script `bienvenue.sh` modifié
    ```bash
    #!/bin/bash
-   date
+
+    # Obtenir le nom de l'utilisateur, du système et la date
+    USER=$(whoami)
+    HOSTNAME=$(hostname)
+
+    # Afficher un message de bienvenue personnalisé
+    echo "Bienvenue $USER sur la machine $HOSTNAME !"
+   ```
+
+4. **Afficher la date et l'heure :**
+#!/bin/bash
+
+# Obtenir la date et l'heure au format souhaité
+DATE=$(date +"%A %d %B %Y à %H:%M:%S")
+
+# Obtenir le nom de l'utilisateur et du système
+USER=$(whoami)
+HOSTNAME=$(hostname)
+
+# Afficher le message de bienvenue
+echo "Bienvenue $USER dans mon script Bash !"
+echo "Exécuté sur la machine $HOSTNAME !"
+echo "Il est présentement $DATE"
    ```
 
 3. **Afficher la liste des fichiers dans un répertoire :**
@@ -113,11 +143,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    mkdir -p $dirname
    ```
 
-7. **Afficher les variables d'environnement :**
-   ```bash
-   #!/bin/bash
-   printenv
-   ```
+
 
 8. **Copier un fichier :**
    ```bash
@@ -132,7 +158,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 9. **Afficher les interfaces réseau :**
    ```bash
    #!/bin/bash
-   ip a
+   ifconfig -a
    ```
 
 10. **Supprimer un fichier :**
@@ -151,26 +177,26 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 1. **Vérifier si un fichier existe :**
    Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier existe ou non.
 
-2. **Vérifier si un répertoire existe :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire existe ou non.
-
-3. **Vérifier si un nombre est positif, négatif ou nul :**
-   Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est positif, négatif ou nul.
-
-4. **Vérifier si un utilisateur existe :**
-   Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur existe sur le système.
-
-5. **Vérifier si un fichier est vide :**
+2. **Vérifier si un fichier est vide :**
    Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier est vide ou non.
 
-6. **Vérifier si un nombre est pair ou impair :**
-   Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est pair ou impair.
+3. **Vérifier si un répertoire existe :**
+   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire existe ou non.
 
-7. **Vérifier si un répertoire est vide :**
+4. **Vérifier si un répertoire est vide :**
    Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire est vide ou non.
 
-8. **Vérifier si un utilisateur est connecté :**
+5. **Vérifier si un utilisateur existe :**
+   Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur existe sur le système.
+
+6. **Vérifier si un utilisateur est connecté :**
    Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur est actuellement connecté.
+
+7. **Vérifier si un nombre est positif, négatif ou nul :**
+   Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est positif, négatif ou nul.
+
+8. **Vérifier si un nombre est pair ou impair :**
+   Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est pair ou impair.
 
 9. **Vérifier si un nombre est un multiple de 5 :**
    Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est un multiple de 5 ou non.
