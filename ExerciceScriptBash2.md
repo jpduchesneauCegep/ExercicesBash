@@ -42,7 +42,7 @@ Utilser les pages man de bash pour vous  aider.
 3. Modifier le script pour qu'il affiche votre nom d'utilisateur avec la commande `whoami` et votre nom de machine en utilisant la variable d'environnement.
 
 4. **Afficher la date et l'heure :**
-   Ajouter la date et l'heure actuelles au format jours, date et heure lorsque vous exécutez le script `bienvenue.sh`. Aidez-vous du man date.
+   Ajouter au scrirpt  `bienvenue.sh` la date et l'heure actuelles et ce, au format jours, date et heure (exemple : lundi 4 novembre 2024 à 11:30). Aidez-vous du man date.
 
 5. **Afficher la liste des fichiers dans un répertoire :**
    Écrivez un script qui affiche la liste des fichiers dans le répertoire où il se trouve. Nom du script `listRep.sh`.
