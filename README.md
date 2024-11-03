@@ -1,7 +1,7 @@
 # 420-W12-SF : partie Bash
 
 - Le premier fichier [Bash](Bash.md) revient sur quelques notions importantes vues dans le cours sur Bash.
-- Par la suite, vous avez trois (3) exercices sur les scripts en Bash dans le cours système d'exploitation.
+- Par la suite, vous avez des exercices sur les scripts en Bash dans le cours système d'exploitation.
 - Le fichier [installWSL](InstalleWSL.md) explique comment mettre en place un Linux comme sous-système de Windows.
 - Vous avez les notions à reviser pour l'examen final dans le fichier [Cours 14](Cours14.md).
 
