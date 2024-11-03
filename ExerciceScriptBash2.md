@@ -12,7 +12,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 **Référence pour l'exercice** : Note du cours et ce résumé [bash](Bash.md).
 
-**Évaluation** : formative, aucun document à remettre. Le corrigé est dans le document. Nous allons y revenir au prochain cours.
+**Évaluation** : Formative, aucun document à remettre. Le corrigé vous sera transmit au prochain cours.
 
 **Compétences ciblés** :
 
