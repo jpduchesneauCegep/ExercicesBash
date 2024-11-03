@@ -21,11 +21,27 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
   - Utiliser des scripts avec le SHELL Bash
   - Programmer, tester et déboguer des scripts
 
+### Prérequis
+  - Déplacez-vous dans depôt cré dans l'exerice précédent 
+  - Créer un nouveau répertoire pour l'exercice 12
+
+ **Attention : N'utilisez jamais le copier/coller, cette technique ne vous fait pas comprendre ce que vous faites. ** 
+
+```bash
+cd  # Vous assurez d'être dans votre $HOME
+cd [Le nom de votre dépôt git]
+mkdir exercice12
+cd exercice12
+git commit -m "création du dossier pour l'exercie 12."
+git push
+
+# Vous placerez tous vos scritps de cette exercice ici.
+# N'oubliez pas de faire des commits et des push pour garder une trace et une sauvegarde de votre travail.
+```
+
 ## Réaliser les scripts suivants
 
-**Attention : n'oubliez pas de donner les droits d'exécution sur les scripts (chmod a+x)**
-
-Utilser les pages man de bash pour vous  aider.
+### Les page man sont essentiel à la réalisation des sciprts, apprenez à les utiliser.
 
    ```bash
  man [commande]
@@ -176,16 +192,22 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    ```
 </details>
 
-## Exercice avec la structure de contrôle si :
+## Exercices avec la structure de contrôle si :
 
 1. **Vérifier si un fichier existe :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier existe ou non.
+   Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier existe ou non. Nom du script  `fichier.sh`.
 
 2. **Vérifier si un fichier est vide :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un fichier, puis affiche un message indiquant si le fichier est vide ou non.
+   Dans votre script précédent, ajouté un affichage des informations sur le fichier si il existe. Cette affichage doit comprendre les informations suivante : 
+      - Type de fichier, 
+      - droits, propriétaire et groupe
+      - La tailles en format lisible (exemple 1k, 234M, 2G, etc.)
+      - La date de la dernière modification
+
 
 3. **Vérifier si un répertoire existe :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire existe ou non.
+   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire existe ou non. Si le réperetoire n'existe pas, ils doit le créer. Nom du script  `NewRepAvecIF.sh`.
+
 
 4. **Vérifier si un répertoire est vide :**
    Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire est vide ou non.
