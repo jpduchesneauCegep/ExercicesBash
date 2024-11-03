@@ -16,4 +16,4 @@ N'hésitez pas à me communiquer toutes erreurs ou omissions.
 - [GNU Bash](https://www.gnu.org/software/bash/)
 - [Bash scripting cheat sheet](https://devhints.io/bash)
 
-Dernière mise à jour octobre 2024
+Dernière mise à jour 3 novembre 2024
