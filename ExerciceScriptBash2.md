@@ -115,13 +115,13 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
 ### Un peu de math!
 
-**Vérifier si un nombre est positif, négatif ou nul :**
+8. **Vérifier si un nombre est positif, négatif ou nul :**
    Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est positif, négatif ou nul. Nom du script  `nbPosNeg.sh`.
 
-8. **Vérifier si un nombre est pair ou impair :**
+9. **Vérifier si un nombre est pair ou impair :**
    Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est pair ou impair.Nom du script  `nbPair.sh`.
 
-9. **Vérifier si un nombre est un multiple de 5 :**
+10. **Vérifier si un nombre est un multiple de 5 :**
    Écrivez un script qui demande à l'utilisateur de saisir un nombre, puis affiche un message indiquant si le nombre est un multiple de 5 ou non. Nom du script  `multiple.sh`.
 
 
