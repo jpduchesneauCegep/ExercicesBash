@@ -26,7 +26,7 @@ Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
 ---
 ### Prérequis
-  - Créez un  dépôt sur GitHub pour l'exercice. Nom suggéré : **420-W12-SF-Module4-Script**
+  - Créez un  dépôt sur GitHub pour les exercices. Nom suggéré : **420-W12-SF-Module4-Script**
   - Ajoutez un fichier readme lors de la création.
   - Faites un clone de votre dossier sur votre poste Ubuntu 24.04 dans votre dossier $USER/Document/
   - Déplacez-vous avec votre Bash dans votre nouveau dossier
@@ -195,6 +195,7 @@ On appelle en fait directement le programme bash et on lui ajoute en paramètre 
 
 Le Shell affiche alors le détail de l'exécution de notre script, ce qui peut nous aider à retrouver la cause de nos erreurs.
 
+### N'oubliez pas de faire un git push a la fin pour sauvegarder votre travail.
 
 ## Fin de l'exercice
 
