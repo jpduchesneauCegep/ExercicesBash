@@ -27,13 +27,60 @@ $echo "Vous êtes dans le dossier $message"
 Vous êtes dans le dossier /home/jpduches/scripts
 ```
 
-- Lorsque vous souhaitez inclure une variable dans un mot, vous pouvez utiliser {}.
+- Lorsque vous souhaitez inclure une variable dans un mot, vous pouvez utiliser () ou {}.
+- Accolades: Évaluation séquentielle, utile pour des expressions complexes.
+- Parentheses:  Groupement de commandes ou expressions pour une exécution en bloc.
+
 
 ```bash
 MACHINE=`hostname`
 NOM=`user`
 echo "Bonjour ${user}, bienvenue sur la machine  {$MACHINE}."
 ```
+2ième exemple  
+```bash
+ #!/bin/bash
+
+# Définir la variable non
+nom="Alphonse Desjardins"
+
+
+# Calculer l'âge en utilisant date et soustraction
+age=$(($(date '+%Y')-1854))
+
+# Utiliser les accolades pour une expression séquentielle
+message="Bonjour, ${nom}, Vous avez ${age} ans!"
+
+echo $message
+```
+
+## Calcule 
+Les expression arithmétique entre doubles parenthèses
+(( )):
+
+```bash
+#!/bin/bash
+# Addition
+resultat=$(( 5 + 3 ))
+echo "5 + 3 = $resultat"
+
+# Soustraction
+resultat=$(( 10 - 4 ))
+echo "10 - 4 = $resultat"
+
+# Multiplication
+resultat=$(( 6 * 7 ))
+echo "6 * 7 = $resultat"
+
+# Division
+resultat=$(( 20 / 4 ))
+echo "20 / 4 = $resultat"
+
+# Modulo
+resultat=$(( 17 % 5 ))
+echo "17 % 5 = $resultat"
+```
+
 ## Variables d'environnements : 
 Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
 
