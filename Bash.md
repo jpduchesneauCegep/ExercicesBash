@@ -55,7 +55,7 @@ message="Bonjour, ${nom}, Vous avez ${age} ans!"
 echo $message
 ```
 
-## Variables d'environnements 
+### Variables d'environnements 
 Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
 
 - La commande **printenv** affiche les noms et les valeurs de toutes les variables d'environnement définies.
@@ -68,7 +68,7 @@ https://doc.ubuntu-fr.org/variables_d_environnement
 
 ---
 2e cours sur Bash
-## Variable de positionnement
+### Variable de positionnement
 
 Les variables de position stockent le contenu des différents éléments de la ligne de commande utilisée pour lancer le script.
 
@@ -123,7 +123,7 @@ Opérateurs principaux :
 
 ```
 
-## Test sinon si 
+### Test sinon si 
 ```bash
 if [condition-est-vrai]
 then
@@ -267,7 +267,7 @@ Portée des variables:
 Par défaut, les variables dans une fonction sont globales, ce qui signifie qu'elles sont accessibles à la fois dans la fonction et dans le reste du script. Il est possible de déclarer des variables locales à la fonction en utilisant le mot-clé local.
 
 ---
-# Référence : 
+## Référence : 
 - https://www.gnu.org/software/bash/
 - https://doc.ubuntu-fr.org/bash
 - https://doc.ubuntu-fr.org/variables_d_environnement
