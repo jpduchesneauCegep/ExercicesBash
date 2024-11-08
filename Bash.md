@@ -13,7 +13,7 @@ info bash
 - Exécution : ./nomScript.sh 
 - Shebang : #!/bin/bash
 
-# Variables
+## Variables
 
 NOM_DE_LE_VARIABLE="valeur"
 - Avec de simples quotes, la variable n'est pas analysée et le $ est affiché tel quel.
@@ -55,6 +55,30 @@ message="Bonjour, ${nom}, Vous avez ${age} ans!"
 echo $message
 ```
 
+## Variables d'environnements 
+Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
+
+- La commande **printenv** affiche les noms et les valeurs de toutes les variables d'environnement définies.
+- Pour affecter une valeur à une variable d'environnement existante, nous utilisons une expression d'affectation. Par exemple pour assigner la valeur « fr_FR.UTF-8 » à la variable « LANG », nous utilisons la commande suivante :
+```bash
+LANG=fr_FR.UTF-8
+```
+Plus d'information : 
+https://doc.ubuntu-fr.org/variables_d_environnement
+
+---
+2e cours sur Bash
+## Variable de positionnement
+
+Les variables de position stockent le contenu des différents éléments de la ligne de commande utilisée pour lancer le script.
+
+- Il en existe 10 : $0 jusqu’à 9
+- Le script lui-même est stocké dans la variable $0
+- Le premier paramètre est stocké dans la variable $1
+- Le second paramètre est stocké dans la variable $2
+- $# : récupère le nombre de paramètres (à partir de $1)
+- $* : récupère la liste des paramètres.
+
 ## Calcule 
 Les expression arithmétique entre doubles parenthèses
 (( )):
@@ -81,31 +105,6 @@ echo "20 / 4 = $resultat"
 resultat=$(( 17 % 5 ))
 echo "17 % 5 = $resultat"
 ```
-
-## Variables d'environnements 
-Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
-
-- La commande **printenv** affiche les noms et les valeurs de toutes les variables d'environnement définies.
-- Pour affecter une valeur à une variable d'environnement existante, nous utilisons une expression d'affectation. Par exemple pour assigner la valeur « fr_FR.UTF-8 » à la variable « LANG », nous utilisons la commande suivante :
-```bash
-LANG=fr_FR.UTF-8
-```
-Plus d'information : 
-https://doc.ubuntu-fr.org/variables_d_environnement
-
----
-2e cours sur Bash
-## Variable de positionnement
-
-Les variables de position stockent le contenu des différents éléments de la ligne de commande utilisée pour lancer le script.
-
-- Il en existe 10 : $0 jusqu’à 9
-- Le script lui-même est stocké dans la variable $0
-- Le premier paramètre est stocké dans la variable $1
-- Le second paramètre est stocké dans la variable $2
-- $# : récupère le nombre de paramètres (à partir de $1)
-- $* : récupère la liste des paramètres.
-
 ## Les tests 
 
 ```bash
