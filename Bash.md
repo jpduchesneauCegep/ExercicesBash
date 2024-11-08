@@ -82,7 +82,7 @@ resultat=$(( 17 % 5 ))
 echo "17 % 5 = $resultat"
 ```
 
-## Variables d'environnements : 
+## Variables d'environnements 
 Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
 
 - La commande **printenv** affiche les noms et les valeurs de toutes les variables d'environnement définies.
