@@ -4,7 +4,7 @@
 ```bash
 #Utilisez la commande :
 info bash
-# sans oublié la page man
+# sans oublié les pages man
 ```
 
 ---
