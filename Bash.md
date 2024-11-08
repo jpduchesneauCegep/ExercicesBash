@@ -54,6 +54,19 @@ message="Bonjour, ${nom}, Vous avez ${age} ans!"
 
 echo $message
 ```
+> Attention au nom des variables !
+
+- Les variables ne peuvent pas commencer par un chiffre mais peuvent
+en contenir.
+    - Exemple : 1BONNEVARIABLE n'est pas un bon nom
+    - Exemple : UNEBONNE7VARIABLE est un nom correct
+- Les variables ne peuvent pas contenir de tiret (-)
+    - Exemple : UNE-BONNE-VARIABLE n'est pas un bon nom
+    - Exemple : UNE_BONNE_VARIABLE est un nom correct
+- Les variables ne peuvent contenir que des underscores, majuscules,
+minuscules et chiffres :
+    - Exemple : UNE_BONNE@VARIABLE n'est pas un bon nom
+    - Exemple : Une_bonne_7_variable est un nom correct
 
 ### Variables d'environnement
 Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
