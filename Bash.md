@@ -55,7 +55,7 @@ message="Bonjour, ${nom}, Vous avez ${age} ans!"
 echo $message
 ```
 
-### Variables d'environnements 
+### Variables d'environnement
 Les variables sont constituées de noms auxquels on assigne des valeurs. Ainsi, le système d'un utilisateur français devrait avoir la valeur « fr_FR.UTF-8 » assignée à la variable « LANG ».
 
 - La commande **printenv** affiche les noms et les valeurs de toutes les variables d'environnement définies.
@@ -68,7 +68,7 @@ https://doc.ubuntu-fr.org/variables_d_environnement
 
 ---
 2e cours sur Bash
-### Variable de positionnement
+### Variables de positionnement
 
 Les variables de position stockent le contenu des différents éléments de la ligne de commande utilisée pour lancer le script.
 
@@ -79,7 +79,7 @@ Les variables de position stockent le contenu des différents éléments de la l
 - $# : récupère le nombre de paramètres (à partir de $1)
 - $* : récupère la liste des paramètres.
 
-## Calcule 
+## Calcule
 Les expression arithmétique entre doubles parenthèses
 (( )):
 
