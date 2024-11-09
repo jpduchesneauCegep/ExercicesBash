@@ -35,7 +35,7 @@ cd exercice12
 git commit -m "création du dossier pour l'exercie 12."
 git push
 
-# Vous placerez tous vos scritps de cette exercice ici.
+# Vous placerez tous vos scripts de cette exercice ici.
 # N'oubliez pas de faire des commits et des push pour garder une trace et une sauvegarde de votre travail.
 ```
 
