@@ -84,7 +84,7 @@ git push
 
 Ces exercices devraient fournir une bonne base pour commencer à pratiquer le code Bash sans utiliser d'instructions conditionnelles.
 
-**Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant le mot Détail.**
+**Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant le mot Réponses.**
 <details>
 <summary>Réponses</summary>
 
