@@ -86,6 +86,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
 **Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant le mot Détail.**
 <details>
+<summary>Réponses</summary>
 
 1. **Afficher les variables d'environnement :**
    ```bash
