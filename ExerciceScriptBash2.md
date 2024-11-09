@@ -183,8 +183,6 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
    echo "Architecture du processeur : $(uname -m)"
    ```
 
-   ```
-
 11. **Afficher les interfaces réseau :**
    ```bash
    #!/bin/bash
