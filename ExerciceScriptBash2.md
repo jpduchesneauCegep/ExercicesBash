@@ -1,4 +1,4 @@
-# Exercice  - Script bash 2 - Jouer avec les  variables
+# Exercice 12 - Script bash 2 - Jouer avec les  variables
 
 Jean-Pierre Duchesneau, Cégep Sainte-Foy, DFCSAE, Automne 2024
 
