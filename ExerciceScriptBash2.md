@@ -266,7 +266,69 @@ Voici les réponses aux scripts correspondant aux exercices précédents :
    fi
    ```
 
-3. **Vérifier si un nombre est positif, négatif ou nul :**
+3. **Vérifier si un répertoire est vide :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom du répertoire : "
+   read dirname
+   if [ "$(ls -A $dirname)" ]; then
+       echo "Le répertoire n'est pas vide."
+   else
+       echo "Le répertoire est vide."
+   fi
+   ```
+
+
+4. **Vérifier si un utilisateur existe :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom d'utilisateur : "
+   read username
+   if id "$username" &>/dev/null; then
+       echo "L'utilisateur existe."
+   else
+       echo "L'utilisateur n'existe pas."
+   fi
+   `
+5. **Vérifier si un utilisateur est connecté :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom d'utilisateur : "
+   read username
+   if who | grep -q "^$username "; then
+       echo "$username est connecté."
+   else
+       echo "$username n'est pas connecté."
+   fi
+   `````
+
+6. **Vérifier si un fichier est exécutable :**
+    ```bash
+    #!/bin/bash
+    echo "Entrez le nom du fichier : "
+    read filename
+    if [ -x "$filename" ]; then
+        echo "Le fichier est exécutable."
+    else
+        echo "Le fichier n'est pas exécutable."
+    fi
+    ```
+
+7. **Vérifier si un fichier est vide :**
+   ```bash
+   #!/bin/bash
+   echo "Entrez le nom du fichier : "
+   read filename
+   if [ -s "$filename" ]; then
+       echo "Le fichier n'est pas vide."
+   else
+       echo "Le fichier est vide."
+   fi
+   ```
+
+
+
+8. **Vérifier si un nombre est positif, négatif ou nul :**
    ```bash
    #!/bin/bash
    echo "Entrez un nombre : "
@@ -279,32 +341,7 @@ Voici les réponses aux scripts correspondant aux exercices précédents :
        echo "Le nombre est nul."
    fi
    ```
-
-4. **Vérifier si un utilisateur existe :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom d'utilisateur : "
-   read username
-   if id "$username" &>/dev/null; then
-       echo "L'utilisateur existe."
-   else
-       echo "L'utilisateur n'existe pas."
-   fi
-   ```
-
-5. **Vérifier si un fichier est vide :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom du fichier : "
-   read filename
-   if [ -s "$filename" ]; then
-       echo "Le fichier n'est pas vide."
-   else
-       echo "Le fichier est vide."
-   fi
-   ```
-
-6. **Vérifier si un nombre est pair ou impair :**
+9. **Vérifier si un nombre est pair ou impair :**
    ```bash
    #!/bin/bash
    echo "Entrez un nombre : "
@@ -316,31 +353,7 @@ Voici les réponses aux scripts correspondant aux exercices précédents :
    fi
    ```
 
-7. **Vérifier si un répertoire est vide :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom du répertoire : "
-   read dirname
-   if [ "$(ls -A $dirname)" ]; then
-       echo "Le répertoire n'est pas vide."
-   else
-       echo "Le répertoire est vide."
-   fi
-   ```
-
-8. **Vérifier si un utilisateur est connecté :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom d'utilisateur : "
-   read username
-   if who | grep -q "^$username "; then
-       echo "$username est connecté."
-   else
-       echo "$username n'est pas connecté."
-   fi
-   ```
-
-9. **Vérifier si un nombre est un multiple de 5 :**
+10. **Vérifier si un nombre est un multiple de 5 :**
    ```bash
    #!/bin/bash
    echo "Entrez un nombre : "
@@ -351,16 +364,4 @@ Voici les réponses aux scripts correspondant aux exercices précédents :
        echo "Le nombre n'est pas un multiple de 5."
    fi
    ```
-
-10. **Vérifier si un fichier est exécutable :**
-    ```bash
-    #!/bin/bash
-    echo "Entrez le nom du fichier : "
-    read filename
-    if [ -x "$filename" ]; then
-        echo "Le fichier est exécutable."
-    else
-        echo "Le fichier n'est pas exécutable."
-    fi
-    ```
 </details>
