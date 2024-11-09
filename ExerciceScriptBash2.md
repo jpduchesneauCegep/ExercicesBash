@@ -240,7 +240,7 @@ Ces exercices permettre  de pratiquer l'utilisation de l'instruction conditionne
 Voici les réponses aux scripts correspondant aux exercices précédents :
 
 <details>
-
+<summary>Réponses</summary>
 
 1. **Vérifier si un fichier existe :**
    ```bash
