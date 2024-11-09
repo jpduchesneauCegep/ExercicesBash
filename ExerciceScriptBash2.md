@@ -187,6 +187,7 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
     echo "Architecture du processeur : $(uname -m)"
     echo "Système d'exploitation : $(uname -s)"
     echo "Version du noyau : $(uname -r)"
+    echo `cat /etc/os-release`
    ```
 
 11. **Afficher les interfaces réseau :**
