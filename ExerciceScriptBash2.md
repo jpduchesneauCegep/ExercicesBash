@@ -179,9 +179,14 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
 10. **Afficher les informations sur le système :**
    ```bash
-   #!/bin/bash
-   echo "Nom de l'utilisateur : $USER"
-   echo "Architecture du processeur : $(uname -m)"
+    #!/bin/bash    
+    echo "Informations système :"
+    echo "Architecture du processeur : $(uname -m)"
+    echo "Nom de l'utilisateur : $USER"
+    echo "Nom de l'hôte : $HOSTNAME"
+    echo "Architecture du processeur : $(uname -m)"
+    echo "Système d'exploitation : $(uname -s)"
+    echo "Version du noyau : $(uname -r)"
    ```
 
 11. **Afficher les interfaces réseau :**
