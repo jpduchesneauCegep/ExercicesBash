@@ -315,18 +315,31 @@ Voici les réponses aux scripts correspondant aux exercices précédents :
     ```
 
 7. **Vérifier si un fichier est vide :**
-   ```bash
-   #!/bin/bash
-   echo "Entrez le nom du fichier : "
-   read filename
-   if [ -s "$filename" ]; then
-       echo "Le fichier n'est pas vide."
-   else
-       echo "Le fichier est vide."
-   fi
+
+```bash
+#!/bin/bash
+
+echo "Entrez le nom du fichier : "
+read filename
+typeFichier=$(file "$filename")
+info=$(ls -lh $filename) 
+
+if [ -e "$filename" ]; then
+    echo "Le fichier n'est pas vide."
+    echo "Il s'agit d'un fichier de type : $typeFichier"
+    echo "Les information sur le fichier sont : $info"
+else
+    echo "Le fichier est vide."
+    echo "Voulez-vous le créer (Oui/Non)?"
+    read reponse
+    if [ $reponse = "Oui" ]; then
+    touch $filename
+    echo "Le fichier a été créé avec succès."
+    else
+    echo "Le fichier n'a pas été créé."
+    fi
+fi
    ```
-
-
 
 8. **Vérifier si un nombre est positif, négatif ou nul :**
    ```bash
