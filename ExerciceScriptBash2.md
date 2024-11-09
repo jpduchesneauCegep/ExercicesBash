@@ -199,13 +199,13 @@ Ces exercices devraient fournir une bonne base pour commencer à pratiquer le co
 
 2. **Vérifier si un répertoire existe :**
    Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire existe ou non. 
-   Si le réperetoire n'existe pas, ils doit le créer. Nom du script  `NewRepAvecIF.sh`.
+   Si le réperetoire n'existe pas, ils doit le créer. Nom du script  `verifRepAvecIF.sh`.
 
 3. **Vérifier si un répertoire est vide :**
-   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire est vide ou non. Nom du script  `VerifRepAvecIF.sh`.
+   Écrivez un script qui demande à l'utilisateur le nom d'un répertoire, puis affiche un message indiquant si le répertoire est vide ou non. Nom du script  `VerifRepVideAvecIF.sh`.
 
 4. **Vérifier si un utilisateur existe :**
-   Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur existe sur le système.Nom du script  `NewRepAvecIF.sh`.
+   Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur existe sur le système.Nom du script  `VerifUserAvecIF.sh`.
 
 5. **Vérifier si un utilisateur est connecté :**
    Écrivez un script qui demande à l'utilisateur de saisir un nom d'utilisateur, puis vérifie si cet utilisateur est actuellement connecté.Nom du script  `userConnecte.sh`.
