@@ -22,8 +22,9 @@
 - Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle.
 - L'examen vaut pour 30 % de la note finale
 - Il sera d'une durée de 3 heures, divisé en deux parties :
-   - Une première partie en format questionnaire en ligne. Maximum 60 minutes
+   - Une partie en format questionnaire en ligne. Vous aurrez 60 minutes, après le début pour finaliser votre questionnaire.
    - La deuxième partie devras être exécuté depuis la machine Ubuntu fournie pour l'examen.
+   - L'ordre n'a pas d'importance.
 - Cet examen doit être réalisé individuellement en classe
 - Seul les 4 pages recto et verso de notes manuscrites sont autorisées.
 - L'utilisation d'Internet est interdite durant l'examen.
