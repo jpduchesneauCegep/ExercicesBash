@@ -11,6 +11,7 @@
  - Utilisation de script Bash (20 points)
 
 ## Préparation à l'examen, recommandation : 
+- Préparer vos 4 feuilles recto/verso maniscrites depuis le contenu du cours.
 - Vérifier si votre VM Ubuntu est fonctionnel.
 - Création d'usagers et de répertoires dans Linux
 - Utilisation des commande du shell Bash
