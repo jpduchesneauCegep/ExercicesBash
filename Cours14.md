@@ -13,6 +13,8 @@
 ## Préparation à l'examen, recommandation : 
 - Vérifier si votre VM Ubuntu est fonctionnel.
 - Création d'usagers et de répertoires dans Linux
+- Utilisation des commande du shell Bash
+- Maintrise de l'exécution d'un script Bash
 
 ## Consignes d'examen : 
 
