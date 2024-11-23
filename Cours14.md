@@ -13,7 +13,7 @@
 ## Préparation à l'examen, recommandation : 
 - Préparer vos 4 feuilles recto/verso maniscrites depuis le contenu du cours.
 - Vous aurez à créer d'usagers, des groupes et des répertoires dans Linux.
-- Vouz devrez changer les droits, les propriétaires et les groupes d'apparteance des usagers
+- Vouz devrez changer les droits, les propriétaires et les groupes d'appartenance des usagers
 - Utilisation des commande de bases du shell Bash
 - Maintrise de l'exécution d'un script Bash
 
