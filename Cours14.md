@@ -21,7 +21,7 @@
 
 - L'examen vaut pour 30 % de la note finale
 - Il sera d'une durée de 3 heures, divisé en deux parties :
-   - Une partie en format questionnaire en ligne. Vous aurrez 60 minutes, après le début pour finaliser votre questionnaire.
+   - Une partie en format questionnaire en ligne. Vous aurrez au maximum 60 minutes, après le début pour finaliser votre questionnaire.
    - Par la suite, la deuxième partie devras être exécuté depuis la machine Ubuntu fournie pour l'examen.
    - Vous devez accéder au serveur ESx ([vCenter](https://vcenterdfc.csfoy.ca))
 - Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle. 
