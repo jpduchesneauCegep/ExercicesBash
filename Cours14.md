@@ -20,7 +20,8 @@
 ## Consignes d'examen : 
 
 - Vous devez accéder au serveur ESx ([vCenter](https://vcenterdfc.csfoy.ca))
-- Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle.
+- Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle. 
+- Vous ne devez pas accéder à votre machine hôte, c'est à dire votre machine personnel. Sauf pour utiliser la VM de l'examen qui devra être exécuté en mode plein écran.
 - L'examen vaut pour 30 % de la note finale
 - Il sera d'une durée de 3 heures, divisé en deux parties :
    - Une partie en format questionnaire en ligne. Vous aurrez 60 minutes, après le début pour finaliser votre questionnaire.
