@@ -4,13 +4,11 @@
 # Examen final - Cours 15, 16 décembre 2024
  
 ## Contenu : 
- - Détermination des composantes pour l’installation d’un ordinateur (10 points)
- - Installation d’un système d’exploitation - Installation d'une VM Windows 10 (15 points)
- - Installation d’applications (16 points)
- - Effectuer des tâches de gestion du système d’exploitation (16 points)
- - Environnement Linux (10 points) 
- - Utilisation de script Bash (34 points)
- - Respect des consignes(Remises) (4 points)
+ - Détermination des composantes pour l’installation d’un ordinateur (20 points)
+ - Installation de système d’exploitation (20 points)
+ - Installation d’applications (20 points)
+ - Effectuer des tâches de gestion du système d’exploitation (20 points)
+ - Utilisation de script Bash (20 points)
 
 ## Préparation à l'examen, recommandation : 
 - Vérifier si votre VM Ubuntu est fonctionnel.
@@ -19,13 +17,14 @@
 ## Consignes d'examen : 
 
 - Vous devez accéder au serveur ESx (vCenter)
-- Vous devrez créer une Vm Windows 10
 - Vous devrez utiliser votre VM Linux
 - L'examen vaut pour 30 % de la note finale
-- Il sera d'une durée de 3 heures.
-- Il sera interdit d'accéder à vos VM du dossier A24_S1_4372_JPD après la période d'examen.
+- Il sera d'une durée de 3 heures, divisé en deux parties :
+   - Une première partie en format questionnaire en ligne. Maximum 60 minutes
+   - La deuxième partie devras être exécuté depuis votre machine Ubuntu. 
+- Il sera interdit d'accéder à vos VM du dossier A24_4372_420-W12_SE_JPD après la période d'examen.
 - Cet examen doit être réalisé individuellement en classe
-- Seul les pages de notes manuscrites sont autorisées.
+- Seul les 4 pages recto et verso de notes manuscrites sont autorisées.
 - L'utilisation des moteurs d'AI (Chat GPT, Copilot, Gemini, etc.) est interdite durant l'examen
 - Tout constat de plagiat, tricherie ou fraude sera automatiquement déclaré à la Direction et les sanctions prévues seront appliquées.
 
