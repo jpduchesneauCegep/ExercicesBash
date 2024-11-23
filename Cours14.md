@@ -24,8 +24,8 @@
    - Une partie en format questionnaire en ligne. Vous aurrez au maximum 60 minutes, après le début pour finaliser votre questionnaire.
    - Par la suite, la deuxième partie devras être exécuté depuis la machine Ubuntu fournie pour l'examen.
    - Vous devez accéder au serveur ESx ([vCenter](https://vcenterdfc.csfoy.ca))
-- Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle. 
-- Vous ne devez pas accéder à votre machine hôte, c'est à dire votre machine personnel. Sauf pour utiliser la VM de l'examen qui devra être exécuté en mode plein écran.   
+   - Vous devrez utiliser une VM Linux fournit pour l'examen, semblable à votre machine actuelle. 
+   - Vous ne devez pas accéder à votre machine hôte, c'est à dire votre machine personnel. Sauf pour le questionnaire du début et pour utiliser la VM de l'examen qui devra être exécuté en mode plein écran.   
 - Cet examen doit être réalisé individuellement en classe
 - Seul les 4 pages recto et verso de notes manuscrites sont autorisées.
 - L'utilisation d'Internet est interdite durant l'examen.
