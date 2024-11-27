@@ -85,7 +85,7 @@ git push
 Ces exercices devraient fournir une bonne base pour commencer à pratiquer le code Bash sans utiliser d'instructions conditionnelles.
 
 **Pour avoir la solution aux exercices précédents , cliquer sur la flèche avant les mots Exemple de réponses.**
-<details>Réponses<details>
+<details>
 <summary>Exemples de réponses</summary>
 
 1. **Afficher les variables d'environnement :**
