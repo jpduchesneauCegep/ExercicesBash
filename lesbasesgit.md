@@ -3,6 +3,7 @@
 - Créer votre dépôt distant (Git Hub, GitLab, etc.)
 
 - Cloner votre dépôt distant sur votre machine locale
+
 ```bash
 git clone https://github.com/username/repository.git
 # Placez vous de votre dépôt local
@@ -10,7 +11,8 @@ cd repository
 ```
 
 - Travailler sur votre projet
-- Faite les étapes suivante avec un nouveau fichier
+- Faite les étapes suivante avec un nouveau fichier:
+
 ```bash
 # Créer un nouveau fichier
 touch fichier.txt
